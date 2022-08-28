@@ -1,0 +1,23 @@
+/* Para adicionar fontes customizadas voce pode baixar ou adicionar links.
+   Para adicionar o link, e so adicionar na parte do head, e para adicionar
+   a fonte baixada em otf ou tff, e so adicionar a propriedade, @font-face
+   e adicionar o nome da fonte do seu jeito e adicionar um source com a url da
+   fonte baixada, e adicionar na font-family com o nome criado.
+
+   */
+
+
+h1{
+    font-family: MinhaFonte;
+
+}
+p{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+@font-face {
+    font-family: MinhaFonte;
+    src: url(./fontes/You\ Blockhead.ttf);
+}
+

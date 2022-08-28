@@ -1,0 +1,35 @@
+/* 
+   TEXT-ALIGN serve para editar horizontalmente o alinhamento do texto,
+   sendo seus atributos: right(direita é o padrão), left (esquerda),
+   center(centro), justify(justificado).
+
+   TEXT-TRANSFORM edita a forma da letra, sendo os valores: uppercase(caixa alta),
+   lowercase(caixa baixa), primeira letra de cada palavra maiúscula (capitalize).
+
+   TEXT-IDENT seria o espaçamento do ínicio de um paragrafo que pode ser editado
+   com as unidades de medidas.
+
+   TEXT-DECORATION sublinhado(underline), riscado(line-trought), linha em cima 
+   (overline), os tres podem ser utilizados sumultaneamente.
+
+   LETTER-SPACING espaçamento entre as letras, editando com as unidades de medidas.
+
+   LINE-HEIGHT altura da linha, editado com as unidades de medidas.
+
+   WORD-SPACING espaçamento entre as palavras editado com as unidades de medida.
+
+   TEXT-SHADOW edita o sombreamento, recebe 4 valores: deslocamento pra direita,
+   deslocamento para baixo, raio de desfoque e cor da sombra.
+   */
+
+p{
+    color: red;
+    text-align: left;
+    text-transform: none;
+    text-indent: none;
+    text-decoration: none;
+    letter-spacing: normal;
+    line-height: normal;
+    word-spacing: 5px;
+    text-shadow: 2px 2px 5px black;
+}

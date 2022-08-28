@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input HTML 5</title>
+</head>
+<body>
+    <!--novos tipos de input para formlários do html5
+
+type= "color" name="~~"   
+
+type= "date" name="~~"
+* yyyy-mm-dd (formato), é possivel delimitar o atributo (max ou min="yyyy-mm-dd)
+**pode-se utilizar tb o datetime-local para adicionar um horário específico.
+
+type="file" name="~~" para enviar arquivos
+* só funciona com o method POST
+
+type="number" name="~~"
+*para preencher apenas com números,  valor colocado pode ser delimitado. ex: min="5"   max="10"
+
+type="range" name="~~" min= "x"  max="3x"
+*esse atributo gera uma barra horizontal que se movimenta de acordo com o valor selecionado
+**com value é possível selecionar um valor inicial
+
+type="tel" name="~~"
+*para número de telefone
+
+type="email" name="~~"
+*verifica se os dados enviados pelo usuário realmente tem as características de um email-->
+    <form action="" method="get">
+        <br>
+
+       cor <input type="color" name="cor">
+
+        <br>
+
+        arquivo <input type="file" name="arquivo">
+
+        <br>
+
+        numero <input type="number" name="numero" min="5" max="10" id="">
+
+        <br>
+
+        intervalo <input type="range" name="intervalo" max="10" value="7">
+
+        <br>
+
+        Telefone <input type="tel" name="Telefone">
+
+        <br>
+
+        email<input type="email" name="email">
+
+        <input type="submit">
+    </form>
+
+    
+</body>
+</html>

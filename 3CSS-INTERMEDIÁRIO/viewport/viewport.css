@@ -1,0 +1,13 @@
+/*esta aula se trata do modo de exibição em dispositivos diferentes.
+utiliza-se a meta tag
+
+meta name="viewport" content="width=device-widtth, initial-scal=1.0*/
+
+
+body{
+    font-size: 1.2rem;
+}
+
+img{
+    width: 300px;
+}

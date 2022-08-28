@@ -1,0 +1,38 @@
+/*position stick
+
+ seu posicionamento padrão é respeitado pelos outros elementos, pode se posicionar em
+  relação a viewport ("grudar"). relaciona-se com o elemento pai.
+*/
+
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-red {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: red;
+}
+
+.quadrado-blue {
+   
+    background-color: blue;
+    
+    
+}
+
+.quadrado-green {
+    background-color: green;
+    
+    
+}
+
+.quadro {
+    width: 500px;
+    height: 4000px;
+    border: 1px solid gray;
+    
+}

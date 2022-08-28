@@ -1,0 +1,57 @@
+
+                   /* Unidades de medidas relativas (EM E REM)
+
+unidades de medidas relativa: (em) tem como referencia a tag pai
+por exemplo, a tag acima dela, ela vai buscar o tamanho referente
+a essa tag se a tag pai for 25px, se colocarmo 1em na tag filho
+ela vai ter 25px tambem, mas se colocarmos 2em ela terá 50px e assim por diante.
+
+(rem) tem como referencia a tag html, a fonte vem por padrão (20px)
+se colocarmos 1rem em algum elemento ela continua igual mas se 
+colocarmos 2rem ela ficar com 40px e assim por diante.
+*/
+
+                    /* Unidades de medida relativas (VW E VH)
+                       
+                    
+unidades de medidas : (vw) é referente a largura da nossa
+janela, 1vw é equivalente a 1 porcento da  largura da
+nossa janela.
+
+(vh) é referente a altura da nossa janela, 1 vh é equivalente
+a 1 porcento da altura da nossa janela.  
+                    
+                     Unidades de medida relativas (VMIN E VMAX)
+
+(vmin) é referente a menor dimensão da janela, se caso a janela estiver
+com a largura menor que altura, ele passa a modificar
+ ate a altura ficar menor que a largura é assim modificar 
+ somente a altura.
+
+(vmax) é referente a maior dimensão da janela, se caso a janela estiver
+com a altura maior que largura, ele passa a modificar
+ ate a largura ficar maior que a altura é assim modificar 
+ somente a largura.
+            
+                    Unidades de medida relativas (%)
+
+(%) é referente ao tamanho do elemento pai se caso o elemento pai
+estiver com 20px de largura é o elemento filho estiver com 50%
+ele vai ter 10ṕx.            
+
+                    
+*/
+
+
+
+
+.container{
+    width: 200px;
+    background-color: red;
+   
+}
+.inside{
+    width: 50%;
+    background-color: blue;
+
+}

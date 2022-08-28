@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Input</title>
+</head>
+
+<body>
+
+
+    <!--input são os tipos de entrada que se pode colocar nos formulários, o esquema é:
+
+~~~~~~input type="tipo aqui" name="nome aqui" value="se houver valor"~~~~
+
+
+**há inputs que não necessitam de nome
+
+tipos: text (texto), submit (enviar), password (senha), checkbox (quadradin de checagem), radio (bolinha p checar), reset.
+
+
+
+
+**no checkbox, quando há mais de uma opção desta é possível add um valor as tags pra poder diferencia-las 
+
+*** radio em diferentes tags com a mesma estrutura (nome) só possibilita a seleção de uma opção, pra começar já com um preenchido é só colocar o valor checked
+
+**submit e reset são exemplos de input que não precisam de nome. colocando algum value na tag é possivel mudar a nomeclatura do botão.-->
+
+    <form method="get" action="">
+        <input type="text" name="search_query"> <br>
+        <input type="password" name="senha"> <br>
+        <input type="checkbox" name="curso" value="op1" id="oi">
+        <label for="oi">Js</label><br>
+        <input type="checkbox" name="curso"valua="op2" id="oii">
+        <label for="oii">React</label><br>
+
+        <input type="radio" name="Genero" id="" value="Masc" checked> Masc
+<br>
+        <input type="radio" name="Genero" id="" value="Fem"> Fem
+        <br>
+
+        <input type="reset" value="Limpar"> 
+
+
+
+
+
+
+
+
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+#centimetros{
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+#milimetros{
+    background-color: red;
+    width: 1mm;
+    height: 1mm;
+}
+#polegadas-in{
+    width: 1in;
+    height: 1in;
+    background-color: blue;
+}
+#pixels{
+    width: 5px;
+    height: 5px;
+    background-color: red;
+}
+#pontos{
+    width: 10pt;
+    height: 10pt;
+    background-color: blue;
+}
+#picas{
+    width: 1pc;
+    height: 1pc;
+    background-color: red;
+}

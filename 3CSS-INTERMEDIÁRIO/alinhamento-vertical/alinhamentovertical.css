@@ -1,0 +1,40 @@
+/*pode-se alterar a altura de um elemento por alguns caminhos:
+
+line-height: da pra ajustar a altura usando as unidades de medidas, mas para um posicionamento específico é necessário saber as dimensões do pai
+
+'position: absolute;' se relaciona com o elemento pai apenas se não for "static" (pode subir até o 'body') podendo ser posicionado em relação ao ascendente. pode ser necessário usar o trasnform: no caso pode add o translate dentro dessa propriedade pra terminar ajustar os eixos. 
+
+padding: só ajustar as dimensões com os diferentes tipos de unidade de medidas. a desvantagem é q é mais dificil definir as medidas do elemento.*/
+
+
+
+.card{
+    border: 2px solid green;
+    width: 400px;;
+    height: 200px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.c1{
+    line-height: 200px;
+}
+
+.c2{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left:50%;
+    
+}
+
+.card2{
+    clear: left;
+    float: left;
+    padding-right: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 150px;
+    border: 2px solid green;
+}

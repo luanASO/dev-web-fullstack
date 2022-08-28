@@ -1,0 +1,19 @@
+h1{
+    font-size: 30px;
+}
+#tittle{
+    text-align: center;
+}
+.nomedacor{
+    color: blue;
+    
+}
+.rgb{
+    color: rgb(34, 34, 90)
+}
+.rgba{
+    color:rgba(0, 0, 0, 0.5);
+}
+.coddec{
+    color: #23f230;
+}

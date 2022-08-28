@@ -1,0 +1,33 @@
+/*POSITION:
+Essa propriedade serve pra poder mudar o elemento de posição.
+
+static: segue o posicionamento padrão do display 
+relative: tem o posicionamento padrão (static) como base podendo ser movimentado a partir desse lugar de partida. não altera a posição dos demais elementos
+posicionamento de um elemento ele já é estático por padrão agente pode alterar o posicionamento de um objeto usando o position:relative, definindo como posicionamento relativo, a gente pode alterar a posição desses elementos usando as propriedade left rigth top e bottom, apesar de ser parecido com o margin não é, porque quando usamos o margin, é como se colocasse algum coisa naquele espaçamento que é dado, já o position:relative; não a gente muda a posição dele referente a ele mesmo
+*/
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-red {
+    background-color: red;
+}
+
+.quadrado-blue {
+    background-color: blue;
+    left: 400px;
+    top: 200px;
+    position: relative;
+}
+
+.quadrado-green {
+    background-color: green;
+}
+
+.quadro {
+    width: 500px;
+    height: 400px;
+    border: 1px solid gray;
+}

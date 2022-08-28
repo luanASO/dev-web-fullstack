@@ -1,0 +1,41 @@
+/*Outiline é uma propriedade que não interagem com o box model, e trabalha
+  semelhante ao border;
+  Box-sizing é utilizado para delimitar o tamanho do elemento.*/
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: red;
+    padding: 5px;
+    border: 5px solid blue;
+    margin: 10px;
+}
+
+.content{
+    background-color: gray;
+    outline: 5px solid green;
+    padding: 5px;
+
+} 
+body{
+    padding: 0;
+    margin: 0;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 10px solid blue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.square2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+}

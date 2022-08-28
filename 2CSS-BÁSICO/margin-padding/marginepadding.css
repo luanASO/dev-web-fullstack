@@ -1,0 +1,56 @@
+/*Margin é um atributo do css que dá um espaçamento
+de fora do elemento.
+Padding é um atributo do css que dá um espaçamento dentro
+do elemeneto.
+​Tento o Margin, quanto o Padding aceitam o formato chamado ShortHand, onde você pode indicar mais de um valor na mesma linha.
+
+Exemplos:
+
+Com 4 valores:
+
+margin: top right bottom left;
+
+margin: 25px 30px 35px 40px;      ( 25px na margem de cima, 30 para direita, 35 paraa baixo e 40 para esquerda ).
+
+
+
+Com apenas 3 valores:
+
+margin: top right|left bottom
+
+margin: 25px 50px 20px ( 25 px de margem para cima, 50 tanto para dreita quanto para esquerda e 20 para baixo)
+
+
+
+Com dois valores:
+
+margin: top|bottom right|left 
+
+margin: 25px 50px  ( 25 px de margem para cima e para baixo, 50 tanto para dreita quanto para esquerda)
+
+
+
+Com apenas 1 valor:
+
+margin: top|bottom|right|left ​
+
+margin: 25px; ( 25px de margem para todos os lados);
+
+
+
+Todos esses exemplos funcionam equivalentemente para o Padding.
+
+*/
+
+#base{
+    height: 10px;
+    background-color: red;
+}
+
+#container{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    
+}

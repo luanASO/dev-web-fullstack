@@ -1,0 +1,28 @@
+/*
+    overflow: quando o conteúdo transborda o elemento, com ele pode-se colocar a barra de rolagem ( eixo X e/ou Y).
+
+    VALORES
+
+    visible: o conteúdo apenas é visível "vazando" o container
+
+    scroll: add bara de rolagem x e y
+
+    auto: só na direção onde precisa
+
+    *pode-se ajustar apenas um eixo por vez (x ou y)
+
+*/
+
+#container {
+    color: rgb(255, 217, 0);
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+img {
+    width: 300px;
+}

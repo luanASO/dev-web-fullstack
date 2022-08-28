@@ -1,0 +1,38 @@
+/*position fixed
+
+se posiciona em relação a viewport, mantendo smp o posicionamento, independente 
+de movimentações da janela e da relação com o elemento pai */
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-red {
+    
+    background-color: red;
+}
+
+.quadrado-blue {
+    position: fixed;
+    bottom: 500px;
+    right: 0px;
+    background-color: blue;
+    
+    
+}
+
+.quadrado-green {
+    background-color: green;
+    
+    
+}
+
+.quadro {
+    position: relative;
+    width: 500px;
+    height: 4000px;
+    border: 1px solid gray;
+    
+    
+}

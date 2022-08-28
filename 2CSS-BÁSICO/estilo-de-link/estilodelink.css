@@ -1,0 +1,33 @@
+/* Os links tem varios estilos diferentes, mas ele ja vem com algumas propriedades
+como: text-descoration: underline; color:blue, cursor:pointer e uma propriedade
+de ação que quando voce clica ela faz alguma coisa, neste caso ela muda de cor 
+ao clicar no link, essa propriedade e chamada de link:active.
+Existem outras propriedades como: link:hover, Hover é usado para quando voce passar
+o mouse no elemento ele muda da forma que configurou.
+A outra propriedade e a link:visited, a Visited é usada para quando voce visita o 
+link e depois ela muda da forma que configurou.
+
+
+*/
+
+.links {
+    text-decoration: none;
+    color: #bc2035;
+    cursor: pointer;
+    /*   background-color: #bc2035;*/
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid #bc2035;
+}
+
+.links:active {
+    background-color: #bc2035;
+    color: white;
+}
+
+.links:visited {
+    border-color: gray;
+    color: gray;
+}

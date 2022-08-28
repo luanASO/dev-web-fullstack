@@ -1,0 +1,21 @@
+/*float: propriedade que tem a capacidade de fazer com que o elemento flutue horizontalmente com os valores para o lado direito (right) ou esquerdo (left)*/
+
+
+body{
+    font-size: 1.2rem;
+}
+#i1{
+    float: left;
+    
+}
+
+p{
+    clear: none;
+}
+
+div{
+    border: 1px solid black;
+    padding: 2px;
+    background-color: aqua;
+    overflow: auto;
+}

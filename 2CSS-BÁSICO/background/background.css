@@ -1,0 +1,11 @@
+body{
+    background-image: url(./fundos/fundo.webp);
+}
+div{
+    background-image: url(./fundos/fundo.webp);
+    background-repeat: no-repeat;/*background no repeat faz com que a imagem nao repita no elemento*/
+    background-size: cover;/*background size faz com que a imagem cubra o elemento por completo*/
+    background-attachment: fixed;/*background fixed faz com que a imagem rola dentro do elemento assim que a pagina e rolada para baixo*/
+    background-position: center;/*background position diz em que posição a imagem deve ficar dentro do elemento nesse caso a imagem iria ficar centralizada*/
+    /* background: url(./fundos/fundos.webp) center/cover fixed é uma forma de utilizar o bacground com as propriedades na mesma linha*/
+}

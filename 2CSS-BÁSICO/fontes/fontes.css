@@ -1,0 +1,38 @@
+    /* Basicamente existem tres grandes familias genericas
+       de fontes: com serifa, sem serifa e monospace.
+       *A serifa consiste em um pequeno traço que está presente 
+       no fim das hastes das letras.
+       *Monospace é a fonte cujas letras e caracteres ocupam o
+       mesmo espaço horizontal. Isto contrasta com as fontes de 
+       largura-variavel.
+
+       A propriedade font-family pode conter vários valores de fontes 
+       como um sistema de "busca". Se o navegador não suportar a primeira 
+       fonte, ela tentara a proxima fonte, cada valor adicionado é separado com
+       virgula. 
+       Se o nome de uma fonte contiver espaço em branco, deve ser colocado 
+       entre aspas.
+       Existem dois tipos de familia de fontes: familia-especifica: o nome
+       de uma familia de fontes como "times", "courier", "arial".
+       Familia-generica: O nome de uma familia-generica. como serif, sans-serif,
+       cursiva, monospace.
+
+       *A propriedade font-style permite a adição do valor pra tornar a fonte 
+       italica.
+
+       *A propriedade font-weight permite editar a fonte para negrito, seja
+       adicionando o valor "bold" ou a numeração que varia de 100 a 900 
+       (caminhando de 100 em 100).
+
+       *A propriedade font-variant ao adicionar o valor para small-caps permite
+        que todas as letras fiquem maiuscula porem respeitando a proporção
+        original existentes entre minusculas e maiscula.
+    */
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 1.5em;
+    font-weight: 100;
+    font-variant:small-caps;
+}

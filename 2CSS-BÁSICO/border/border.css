@@ -1,0 +1,40 @@
+
+
+/*a borda inicialmente precisa de uma largura, 
+um estilo e uma cor pra aparecer na tela.
+*border-radius é utilizado para editar a
+ circunferência desta. os lados da borda 
+ podem ser editados separadamente. 
+ (top, right, bottom e left)
+
+estilos de borda=
+dotted: pontilhada
+dashed: tracejada
+solid: solida
+none: sem borda
+hidden: escondida
+*/
+
+
+
+
+
+
+
+
+.borda{
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+    border-radius: 50%;
+    border-top-color: blue;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+
+}

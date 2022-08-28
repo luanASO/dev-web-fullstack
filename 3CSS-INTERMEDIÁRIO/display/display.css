@@ -1,0 +1,17 @@
+body {
+    font-size: 1.2rem;
+}
+
+
+/* display citados
+
+none: como se o elemento não estivesse na tela
+
+block: elemento comporta toda linha. medidas ajustáveis
+
+inline: o próximo elemento continua na mesma linha. medidas não ajustáveis
+
+inline-block: continua na mesma linha. ajustável
+
+**não se pode colocar elemento block em um parágrafo pois isso quebra o fluxo dentro desse elemento
+*/
