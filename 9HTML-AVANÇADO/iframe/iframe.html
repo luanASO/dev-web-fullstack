@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        .frame{ /* propriedades para este elemento, cujo a "classe" é "frame".*/
+            background-color: red; /* adiciona um fundo com a cor vermelha.*/
+            border: none; /* remove a borda do elemento*/
+            width: 100%; /* diz que a lagura do elemento vai ter 100% do tamanho da tela.*/
+        }
+
+        .video-yt{
+            width: 640px;
+            height: 360px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Esta página é a index</h1>
+    <iframe class="frame" src="iframe2.html"></iframe> <!-- "Iframe" é uma maneira de colocar o conteúdo de outra página web, dentro desta página. O "iframe" tem vários atributos como, ("src", para adicionar a página que vai ser mostrada, pode-se adicionar "link" ou outro documento "HTML".)-->
+
+    <iframe class="video-yt" src="https://www.youtube.com/embed/n89W7l6Ek-Q" title="SURREAL! TRAILER FINAL PANTERA NEGRA 2 WAKANDA FOREVER VAI SAIR E O ROTEIRO ORIGINAL DO FILME" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

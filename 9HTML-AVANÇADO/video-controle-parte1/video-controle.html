@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            width: 640px;
+            height: 360px;
+            position: relative;
+        }
+
+        .video {
+            width: 100%;
+        }
+
+        .controles {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+
+        .btn {
+            position: relative;
+            top: 100%;
+            transform: translateY(-100%);
+            width: 64px;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+    <title>video controle</title>
+</head>
+
+<body>
+    <div class="container">
+        <!--Vai conter todos os conteúdo dentro-->
+        <video id="video_principal" class="video" src="video/die_for_you.mp4">
+
+        </video>
+        <div class="controles" id="controle_principal"> <!--onde vai ficar os botões para controlar o video.-->
+            <img src="img/voltar.png" class="btn" onclick="retroceder()">
+            <img src="img/avançar.png" class="btn" onclick="avancar()">
+            <img src="img/diminuir.png" class="btn" onclick="diminuir_vel()">
+            <img src="img/aumentar.png" class="btn" onclick="aumentar_vel()">
+            <img src="img/iniciar.png" class="btn" onclick="play()">
+            <img src="img/pausar.png" class="btn" onclick="pausar()">
+            <img src="img/parar.png" class="btn" onclick="stop()">
+        </div>
+    </div>
+    <script src="video-controle.js"></script>
+</body>
+
+</html>
